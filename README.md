@@ -1,70 +1,74 @@
-### **Introduction**
+```markdown
+# 🎓 Student Reward Prediction System  
 
-The project "HUFLIT Scholarship Analysis and Prediction" is a comprehensive data science and data analytics solution designed to analyze and predict student rewards based on academic and behavioral performance. The primary objective is to streamline the scholarship allocation process by leveraging machine learning to provide data-driven insights and automate predictions.
-
-This is the user's first project using ChatGPT's assistance, demonstrating the integration of advanced AI technologies into real-world applications. The project utilizes Python for data preprocessing, visualization, and model training, and integrates Streamlit to provide an interactive web-based prediction tool.
-
----
-
-### **Project Details**
-
-#### **1. Problem Statement**
-The project addresses the challenge of analyzing large-scale student performance data to identify patterns and predict the appropriate reward category for students based on their performance metrics. This automates decision-making, reduces human errors, and ensures fair distribution of scholarships and recognitions.
+An end-to-end solution for analyzing student performance data and predicting reward categories using machine learning. The system automates decision-making and ensures fairness in reward distribution.  
 
 ---
 
-#### **2. Key Features**
-1. **Data Extraction and Preprocessing:**
-   - Converts PDF data into a structured CSV format using `pdfplumber`.
-   - Cleans and normalizes data to ensure consistency and readiness for analysis.
+## 📋 Problem Statement  
 
-2. **Exploratory Data Analysis (EDA):**
-   - Visualizes trends and distributions using `matplotlib` and `seaborn`.
-   - Insights include:
-     - The distribution of students across reward categories.
-     - Relationships between academic scores (GPA) and behavioral scores (ĐRL).
-
-3. **Machine Learning Model:**
-   - Implements a Random Forest Classifier to predict reward categories based on performance metrics.
-   - Achieves an accuracy of 86% during testing, indicating a robust predictive capability.
-
-4. **Interactive Prediction Application:**
-   - Developed using Streamlit for an intuitive user interface.
-   - Allows users to input performance metrics (academic and behavioral scores) to predict the scholarship or reward category.
+The project tackles:  
+- **Efficient Data Analysis:** Identifying trends and patterns from large-scale student performance data.  
+- **Automated Reward Prediction:** Reducing manual errors and enhancing decision-making.  
+- **Fair Distribution:** Ensuring unbiased allocation of scholarships and recognitions.  
 
 ---
 
-#### **3. Technical Workflow**
-1. **Data Pipeline:**
-   - Extract performance data from PDF files.
-   - Clean and preprocess the data into numerical formats suitable for analysis and modeling.
+## ✨ Features  
 
-2. **Visualization and Reporting:**
-   - Generate detailed visualizations to understand patterns in student performance.
-   - Save summarized insights into markdown reports for easy sharing.
+### 🛠 Data Processing  
+- **PDF to CSV Conversion:**  
+  - Uses `pdfplumber` to extract structured data from PDFs.  
+- **Data Cleaning and Normalization:**  
+  - Ensures consistency and prepares data for analysis.  
 
-3. **Model Development:**
-   - Prepare the data by splitting it into training and testing sets.
-   - Train a Random Forest model and evaluate its performance using precision, recall, and F1-score metrics.
+### 📊 Exploratory Data Analysis (EDA)  
+- **Visualizations:**  
+  - Leverages `matplotlib` and `seaborn` to showcase trends and distributions.  
+- **Insights:**  
+  - Reward category distribution.  
+  - Correlation between academic scores (GPA) and behavioral scores (ĐRL).  
 
-4. **Deployment:**
-   - Package the trained model using `joblib`.
-   - Deploy the model via a Streamlit application for real-time predictions.
+### 🤖 Machine Learning Model  
+- **Model:**  
+  - Implements a Random Forest Classifier for predicting reward categories.  
+- **Performance:**  
+  - Achieves an accuracy of **86%** during testing.  
 
----
-
-#### **4. Tools and Libraries**
-- **Python Libraries:** `pandas`, `matplotlib`, `seaborn`, `sklearn`, `pdfplumber`, `streamlit`, `numpy`, `joblib`.
-- **Development Environment:** Jupyter Notebook for experimentation and VSCode for production scripts.
-- **Web Deployment:** Streamlit for a simple and accessible user interface.
-
----
-
-#### **5. Applications**
-- Automating scholarship evaluations in educational institutions.
-- Enhancing transparency and fairness in reward allocation.
-- Providing insights for institutional performance improvement.
+### 🌐 Interactive Application  
+- **User Interface:**  
+  - Built with `Streamlit` for an intuitive experience.  
+- **Functionality:**  
+  - Users input performance metrics (academic and behavioral scores) to predict rewards.  
 
 ---
 
-This project highlights the practical application of data science and analytics in solving real-world problems, serving as a foundation for more advanced AI-driven solutions in education.
+## 🚀 How to Run  
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-repo/student-reward-prediction.git  
+   cd student-reward-prediction  
+   ```  
+
+2. **Install Dependencies**  
+   ```bash
+   pip install -r requirements.txt  
+   ```  
+
+3. **Start the Application**  
+   ```bash
+   streamlit run app.py  
+   ```  
+
+4. **Use the App**  
+   - Input scores to get reward predictions.  
+
+---
+
+## 🛠 Technologies  
+
+- **Languages:** Python  
+- **Libraries:** Streamlit, pdfplumber, pandas, matplotlib, seaborn, scikit-learn  
+- **Machine Learning Model:** Random Forest Classifier  
+```  
