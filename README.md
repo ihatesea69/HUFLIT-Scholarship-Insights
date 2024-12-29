@@ -1,74 +1,63 @@
-```markdown
-# 🎓 Student Reward Prediction System  
-
-An end-to-end solution for analyzing student performance data and predicting reward categories using machine learning. The system automates decision-making and ensures fairness in reward distribution.  
+Đây là đoạn văn bản đã được viết lại:
 
 ---
 
-## 📋 Problem Statement  
+**Student Reward Prediction System**
 
-The project tackles:  
-- **Efficient Data Analysis:** Identifying trends and patterns from large-scale student performance data.  
-- **Automated Reward Prediction:** Reducing manual errors and enhancing decision-making.  
-- **Fair Distribution:** Ensuring unbiased allocation of scholarships and recognitions.  
+This is an end-to-end solution designed to analyze student performance data and predict reward categories using machine learning. The system automates decision-making processes to ensure fairness in the distribution of rewards.
 
 ---
 
-## ✨ Features  
+**Problem Statement**
 
-### 🛠 Data Processing  
-- **PDF to CSV Conversion:**  
-  - Uses `pdfplumber` to extract structured data from PDFs.  
-- **Data Cleaning and Normalization:**  
-  - Ensures consistency and prepares data for analysis.  
-
-### 📊 Exploratory Data Analysis (EDA)  
-- **Visualizations:**  
-  - Leverages `matplotlib` and `seaborn` to showcase trends and distributions.  
-- **Insights:**  
-  - Reward category distribution.  
-  - Correlation between academic scores (GPA) and behavioral scores (ĐRL).  
-
-### 🤖 Machine Learning Model  
-- **Model:**  
-  - Implements a Random Forest Classifier for predicting reward categories.  
-- **Performance:**  
-  - Achieves an accuracy of **86%** during testing.  
-
-### 🌐 Interactive Application  
-- **User Interface:**  
-  - Built with `Streamlit` for an intuitive experience.  
-- **Functionality:**  
-  - Users input performance metrics (academic and behavioral scores) to predict rewards.  
+This project focuses on solving the following challenges:
+- **Efficient Data Analysis**: Identifying trends and patterns from large-scale student performance data.
+- **Automated Reward Prediction**: Minimizing manual errors while enhancing the decision-making process.
+- **Fair Distribution**: Ensuring an unbiased allocation of scholarships and recognitions.
 
 ---
 
-## 🚀 How to Run  
+**Features**
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/your-repo/student-reward-prediction.git  
-   cd student-reward-prediction  
-   ```  
+- **Data Processing**
+  - **PDF to CSV Conversion**: Utilizes `pdfplumber` to extract structured data from PDF documents.
+  - **Data Cleaning and Normalization**: Ensures the data is consistent and ready for analysis.
 
-2. **Install Dependencies**  
-   ```bash
-   pip install -r requirements.txt  
-   ```  
+- **Exploratory Data Analysis (EDA)**
+  - **Visualizations**: Uses `matplotlib` and `seaborn` to visualize trends and distributions.
+  - **Insights**: 
+    - Distribution of reward categories.
+    - Correlations between academic scores (GPA) and behavioral scores (ĐRL).
 
-3. **Start the Application**  
-   ```bash
-   streamlit run app.py  
-   ```  
+- **Machine Learning Model**
+  - **Model**: Implements a Random Forest Classifier to predict reward categories.
+  - **Performance**: Achieves an accuracy of **86%** during testing.
 
-4. **Use the App**  
-   - Input scores to get reward predictions.  
+- **Interactive Application**
+  - **User Interface**: Built with `Streamlit` to provide an intuitive experience.
+  - **Functionality**: Users can input their academic and behavioral scores to predict reward categories.
 
 ---
 
-## 🛠 Technologies  
+**How to Run**
 
-- **Languages:** Python  
-- **Libraries:** Streamlit, pdfplumber, pandas, matplotlib, seaborn, scikit-learn  
-- **Machine Learning Model:** Random Forest Classifier  
-```  
+1. **Clone the Repository**
+   - `git clone https://github.com/your-repo/student-reward-prediction.git`
+   - `cd student-reward-prediction`
+
+2. **Install Dependencies**
+   - `pip install -r requirements.txt`
+
+3. **Start the Application**
+   - `streamlit run app.py`
+
+4. **Use the App**
+   - Input the necessary performance scores to get the predicted reward category.
+
+---
+
+**Technologies**
+
+- **Languages**: Python
+- **Libraries**: Streamlit, pdfplumber, pandas, matplotlib, seaborn, scikit-learn
+- **Machine Learning Model**: Random Forest Classifier
